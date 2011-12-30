@@ -10,7 +10,7 @@ Just copy the files under the _MagnifyingGlass_ directory into your project.
 
 **Howto**:
 
-Simply create a _ACMagnifyingView_ view and a magnifier will show up when you tap the screen, magnifying the view and its subviews.
+Simply create a _ACMagnifyingView_ view (with alloc/initWithFrame or from nib) and a magnifier will show up when you tap the screen, magnifying the view and its subviews.
 
 It is possible to use a custom magnifier, like this:
 
