@@ -1,0 +1,4 @@
+build/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/arnaud.xcuserdatad
+.DS_Store

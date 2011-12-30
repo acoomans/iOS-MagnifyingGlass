@@ -1,64 +1,34 @@
 //
 //  ACViewController.m
-//  MagnifyingGlassDemo
+//  MagnifyingGlass
 //
 //  Created by Arnaud Coomans on 30/12/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "ACViewController.h"
+#import "ACMagnifyingView.h"
+#import "ACMagnifyingGlass.h"
 
 @implementation ACViewController
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
+@synthesize magnifyingView;
+
 
 #pragma mark - View lifecycle
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+	// custom magnifier
+	ACMagnifyingGlass *mag = [[ACMagnifyingGlass alloc] initWithFrame:CGRectMake(0, 0, 120, 120)];
+	mag.scale = 2;
+	self.magnifyingView.magnifyingGlass = mag;
+
 }
 
-- (void)viewDidUnload
-{
+- (void)viewDidUnload {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-	    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-	} else {
-	    return YES;
-	}
 }
 
 @end

@@ -1,6 +1,6 @@
 //
 //  ACAppDelegate.m
-//  MagnifyingGlassDemo
+//  MagnifyingGlass
 //
 //  Created by Arnaud Coomans on 30/12/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
@@ -18,12 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-	    self.viewController = [[ACViewController alloc] initWithNibName:@"ACViewController_iPhone" bundle:nil];
-	} else {
-	    self.viewController = [[ACViewController alloc] initWithNibName:@"ACViewController_iPad" bundle:nil];
-	}
+	self.viewController = [[ACViewController alloc] initWithNibName:@"ACViewController" bundle:nil];
 	self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

@@ -14,13 +14,15 @@
 		51260E6914AE709F007166B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51260E6814AE709F007166B6 /* main.m */; };
 		51260E6D14AE709F007166B6 /* ACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51260E6C14AE709F007166B6 /* ACAppDelegate.m */; };
 		51260E7014AE709F007166B6 /* ACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51260E6F14AE709F007166B6 /* ACViewController.m */; };
-		51260E7314AE709F007166B6 /* ACViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51260E7114AE709F007166B6 /* ACViewController_iPhone.xib */; };
-		51260E7614AE709F007166B6 /* ACViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51260E7414AE709F007166B6 /* ACViewController_iPad.xib */; };
 		51260E7E14AE709F007166B6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51260E7D14AE709F007166B6 /* SenTestingKit.framework */; };
 		51260E7F14AE70A0007166B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51260E5C14AE709F007166B6 /* UIKit.framework */; };
 		51260E8014AE70A0007166B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51260E5E14AE709F007166B6 /* Foundation.framework */; };
 		51260E8814AE70A0007166B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51260E8614AE70A0007166B6 /* InfoPlist.strings */; };
 		51260E8B14AE70A0007166B6 /* MagnifyingGlassDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51260E8A14AE70A0007166B6 /* MagnifyingGlassDemoTests.m */; };
+		51260E9914AE70B7007166B6 /* ACMagnifyingGlass.m in Sources */ = {isa = PBXBuildFile; fileRef = 51260E9614AE70B7007166B6 /* ACMagnifyingGlass.m */; };
+		51260E9A14AE70B7007166B6 /* ACMagnifyingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51260E9814AE70B7007166B6 /* ACMagnifyingView.m */; };
+		51260EA414AE70EC007166B6 /* ACViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51260EA214AE70EC007166B6 /* ACViewController.xib */; };
+		51CDF64314AE776700F84B9B /* pic04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51CDF64214AE776700F84B9B /* pic04.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +40,26 @@
 		51260E5C14AE709F007166B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		51260E5E14AE709F007166B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		51260E6014AE709F007166B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		51260E6414AE709F007166B6 /* MagnifyingGlassDemo-Info.plist */ = {isa = PBXFileReference; path = "MagnifyingGlassDemo-Info.plist"; sourceTree = "<group>"; };
+		51260E6414AE709F007166B6 /* MagnifyingGlassDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagnifyingGlassDemo-Info.plist"; sourceTree = "<group>"; };
 		51260E6614AE709F007166B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51260E6814AE709F007166B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		51260E6A14AE709F007166B6 /* MagnifyingGlassDemo-Prefix.pch */ = {isa = PBXFileReference; path = "MagnifyingGlassDemo-Prefix.pch"; sourceTree = "<group>"; };
-		51260E6B14AE709F007166B6 /* ACAppDelegate.h */ = {isa = PBXFileReference; path = ACAppDelegate.h; sourceTree = "<group>"; };
+		51260E6A14AE709F007166B6 /* MagnifyingGlassDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagnifyingGlassDemo-Prefix.pch"; sourceTree = "<group>"; };
+		51260E6B14AE709F007166B6 /* ACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACAppDelegate.h; sourceTree = "<group>"; };
 		51260E6C14AE709F007166B6 /* ACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACAppDelegate.m; sourceTree = "<group>"; };
-		51260E6E14AE709F007166B6 /* ACViewController.h */ = {isa = PBXFileReference; path = ACViewController.h; sourceTree = "<group>"; };
+		51260E6E14AE709F007166B6 /* ACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACViewController.h; sourceTree = "<group>"; };
 		51260E6F14AE709F007166B6 /* ACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACViewController.m; sourceTree = "<group>"; };
-		51260E7214AE709F007166B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACViewController_iPhone.xib; sourceTree = "<group>"; };
-		51260E7514AE709F007166B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACViewController_iPad.xib; sourceTree = "<group>"; };
 		51260E7C14AE709F007166B6 /* MagnifyingGlassDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnifyingGlassDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51260E7D14AE709F007166B6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		51260E8514AE70A0007166B6 /* MagnifyingGlassDemoTests-Info.plist */ = {isa = PBXFileReference; path = "MagnifyingGlassDemoTests-Info.plist"; sourceTree = "<group>"; };
+		51260E8514AE70A0007166B6 /* MagnifyingGlassDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagnifyingGlassDemoTests-Info.plist"; sourceTree = "<group>"; };
 		51260E8714AE70A0007166B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		51260E8914AE70A0007166B6 /* MagnifyingGlassDemoTests.h */ = {isa = PBXFileReference; path = MagnifyingGlassDemoTests.h; sourceTree = "<group>"; };
+		51260E8914AE70A0007166B6 /* MagnifyingGlassDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagnifyingGlassDemoTests.h; sourceTree = "<group>"; };
 		51260E8A14AE70A0007166B6 /* MagnifyingGlassDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagnifyingGlassDemoTests.m; sourceTree = "<group>"; };
+		51260E9514AE70B7007166B6 /* ACMagnifyingGlass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMagnifyingGlass.h; sourceTree = "<group>"; };
+		51260E9614AE70B7007166B6 /* ACMagnifyingGlass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMagnifyingGlass.m; sourceTree = "<group>"; };
+		51260E9714AE70B7007166B6 /* ACMagnifyingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMagnifyingView.h; sourceTree = "<group>"; };
+		51260E9814AE70B7007166B6 /* ACMagnifyingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMagnifyingView.m; sourceTree = "<group>"; };
+		51260EA314AE70EC007166B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACViewController.xib; sourceTree = "<group>"; };
+		51CDF64214AE776700F84B9B /* pic04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic04.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 		51260E4D14AE709F007166B6 = {
 			isa = PBXGroup;
 			children = (
+				51260E9414AE70B7007166B6 /* MagnifyingGlass */,
 				51260E6214AE709F007166B6 /* MagnifyingGlassDemo */,
 				51260E8314AE70A0007166B6 /* MagnifyingGlassDemoTests */,
 				51260E5B14AE709F007166B6 /* Frameworks */,
@@ -117,8 +124,7 @@
 				51260E6C14AE709F007166B6 /* ACAppDelegate.m */,
 				51260E6E14AE709F007166B6 /* ACViewController.h */,
 				51260E6F14AE709F007166B6 /* ACViewController.m */,
-				51260E7114AE709F007166B6 /* ACViewController_iPhone.xib */,
-				51260E7414AE709F007166B6 /* ACViewController_iPad.xib */,
+				51260EA214AE70EC007166B6 /* ACViewController.xib */,
 				51260E6314AE709F007166B6 /* Supporting Files */,
 			);
 			path = MagnifyingGlassDemo;
@@ -127,6 +133,7 @@
 		51260E6314AE709F007166B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				51CDF64214AE776700F84B9B /* pic04.jpg */,
 				51260E6414AE709F007166B6 /* MagnifyingGlassDemo-Info.plist */,
 				51260E6514AE709F007166B6 /* InfoPlist.strings */,
 				51260E6814AE709F007166B6 /* main.m */,
@@ -152,6 +159,17 @@
 				51260E8614AE70A0007166B6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51260E9414AE70B7007166B6 /* MagnifyingGlass */ = {
+			isa = PBXGroup;
+			children = (
+				51260E9514AE70B7007166B6 /* ACMagnifyingGlass.h */,
+				51260E9614AE70B7007166B6 /* ACMagnifyingGlass.m */,
+				51260E9714AE70B7007166B6 /* ACMagnifyingView.h */,
+				51260E9814AE70B7007166B6 /* ACMagnifyingView.m */,
+			);
+			path = MagnifyingGlass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,8 +243,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				51260E6714AE709F007166B6 /* InfoPlist.strings in Resources */,
-				51260E7314AE709F007166B6 /* ACViewController_iPhone.xib in Resources */,
-				51260E7614AE709F007166B6 /* ACViewController_iPad.xib in Resources */,
+				51260EA414AE70EC007166B6 /* ACViewController.xib in Resources */,
+				51CDF64314AE776700F84B9B /* pic04.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +282,8 @@
 				51260E6914AE709F007166B6 /* main.m in Sources */,
 				51260E6D14AE709F007166B6 /* ACAppDelegate.m in Sources */,
 				51260E7014AE709F007166B6 /* ACViewController.m in Sources */,
+				51260E9914AE70B7007166B6 /* ACMagnifyingGlass.m in Sources */,
+				51260E9A14AE70B7007166B6 /* ACMagnifyingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,28 +314,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		51260E7114AE709F007166B6 /* ACViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51260E7214AE709F007166B6 /* en */,
-			);
-			name = ACViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		51260E7414AE709F007166B6 /* ACViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51260E7514AE709F007166B6 /* en */,
-			);
-			name = ACViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
 		51260E8614AE70A0007166B6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				51260E8714AE70A0007166B6 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51260EA214AE70EC007166B6 /* ACViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51260EA314AE70EC007166B6 /* en */,
+			);
+			name = ACViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -374,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MagnifyingGlassDemo/MagnifyingGlassDemo-Prefix.pch";
 				INFOPLIST_FILE = "MagnifyingGlassDemo/MagnifyingGlassDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -385,6 +398,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MagnifyingGlassDemo/MagnifyingGlassDemo-Prefix.pch";
 				INFOPLIST_FILE = "MagnifyingGlassDemo/MagnifyingGlassDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,6 +457,7 @@
 				51260E9014AE70A0007166B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51260E9114AE70A0007166B6 /* Build configuration list for PBXNativeTarget "MagnifyingGlassDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +466,7 @@
 				51260E9314AE70A0007166B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
