@@ -23,8 +23,6 @@
 		51260E9A14AE70B7007166B6 /* ACMagnifyingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51260E9814AE70B7007166B6 /* ACMagnifyingView.m */; };
 		51260EA414AE70EC007166B6 /* ACViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51260EA214AE70EC007166B6 /* ACViewController.xib */; };
 		51CDF64314AE776700F84B9B /* pic04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51CDF64214AE776700F84B9B /* pic04.jpg */; };
-		51CDF64514AE7A6900F84B9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 51CDF64414AE7A6900F84B9B /* README.md */; };
-		51CDF64714AE7F4600F84B9B /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CDF64614AE7F4600F84B9B /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -251,8 +249,6 @@
 				51260E6714AE709F007166B6 /* InfoPlist.strings in Resources */,
 				51260EA414AE70EC007166B6 /* ACViewController.xib in Resources */,
 				51CDF64314AE776700F84B9B /* pic04.jpg in Resources */,
-				51CDF64514AE7A6900F84B9B /* README.md in Resources */,
-				51CDF64714AE7F4600F84B9B /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
