@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51260E5D14AE709F007166B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51260E5C14AE709F007166B6 /* UIKit.framework */; };
+		51260E5F14AE709F007166B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51260E5E14AE709F007166B6 /* Foundation.framework */; };
+		51260E6114AE709F007166B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51260E6014AE709F007166B6 /* CoreGraphics.framework */; };
+		51260E6714AE709F007166B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51260E6514AE709F007166B6 /* InfoPlist.strings */; };
+		51260E6914AE709F007166B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51260E6814AE709F007166B6 /* main.m */; };
+		51260E6D14AE709F007166B6 /* ACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51260E6C14AE709F007166B6 /* ACAppDelegate.m */; };
+		51260E7014AE709F007166B6 /* ACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51260E6F14AE709F007166B6 /* ACViewController.m */; };
+		51260E7314AE709F007166B6 /* ACViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51260E7114AE709F007166B6 /* ACViewController_iPhone.xib */; };
+		51260E7614AE709F007166B6 /* ACViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51260E7414AE709F007166B6 /* ACViewController_iPad.xib */; };
+		51260E7E14AE709F007166B6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51260E7D14AE709F007166B6 /* SenTestingKit.framework */; };
+		51260E7F14AE70A0007166B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51260E5C14AE709F007166B6 /* UIKit.framework */; };
+		51260E8014AE70A0007166B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51260E5E14AE709F007166B6 /* Foundation.framework */; };
+		51260E8814AE70A0007166B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51260E8614AE70A0007166B6 /* InfoPlist.strings */; };
+		51260E8B14AE70A0007166B6 /* MagnifyingGlassDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51260E8A14AE70A0007166B6 /* MagnifyingGlassDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51260E8114AE70A0007166B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51260E4F14AE709F007166B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51260E5714AE709F007166B6;
+			remoteInfo = MagnifyingGlassDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51260E5814AE709F007166B6 /* MagnifyingGlassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagnifyingGlassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51260E5C14AE709F007166B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		51260E5E14AE709F007166B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51260E6014AE709F007166B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		51260E6414AE709F007166B6 /* MagnifyingGlassDemo-Info.plist */ = {isa = PBXFileReference; path = "MagnifyingGlassDemo-Info.plist"; sourceTree = "<group>"; };
+		51260E6614AE709F007166B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51260E6814AE709F007166B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51260E6A14AE709F007166B6 /* MagnifyingGlassDemo-Prefix.pch */ = {isa = PBXFileReference; path = "MagnifyingGlassDemo-Prefix.pch"; sourceTree = "<group>"; };
+		51260E6B14AE709F007166B6 /* ACAppDelegate.h */ = {isa = PBXFileReference; path = ACAppDelegate.h; sourceTree = "<group>"; };
+		51260E6C14AE709F007166B6 /* ACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACAppDelegate.m; sourceTree = "<group>"; };
+		51260E6E14AE709F007166B6 /* ACViewController.h */ = {isa = PBXFileReference; path = ACViewController.h; sourceTree = "<group>"; };
+		51260E6F14AE709F007166B6 /* ACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACViewController.m; sourceTree = "<group>"; };
+		51260E7214AE709F007166B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACViewController_iPhone.xib; sourceTree = "<group>"; };
+		51260E7514AE709F007166B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACViewController_iPad.xib; sourceTree = "<group>"; };
+		51260E7C14AE709F007166B6 /* MagnifyingGlassDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnifyingGlassDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51260E7D14AE709F007166B6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		51260E8514AE70A0007166B6 /* MagnifyingGlassDemoTests-Info.plist */ = {isa = PBXFileReference; path = "MagnifyingGlassDemoTests-Info.plist"; sourceTree = "<group>"; };
+		51260E8714AE70A0007166B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51260E8914AE70A0007166B6 /* MagnifyingGlassDemoTests.h */ = {isa = PBXFileReference; path = MagnifyingGlassDemoTests.h; sourceTree = "<group>"; };
+		51260E8A14AE70A0007166B6 /* MagnifyingGlassDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagnifyingGlassDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51260E5514AE709F007166B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51260E5D14AE709F007166B6 /* UIKit.framework in Frameworks */,
+				51260E5F14AE709F007166B6 /* Foundation.framework in Frameworks */,
+				51260E6114AE709F007166B6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51260E7814AE709F007166B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51260E7E14AE709F007166B6 /* SenTestingKit.framework in Frameworks */,
+				51260E7F14AE70A0007166B6 /* UIKit.framework in Frameworks */,
+				51260E8014AE70A0007166B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51260E4D14AE709F007166B6 = {
+			isa = PBXGroup;
+			children = (
+				51260E6214AE709F007166B6 /* MagnifyingGlassDemo */,
+				51260E8314AE70A0007166B6 /* MagnifyingGlassDemoTests */,
+				51260E5B14AE709F007166B6 /* Frameworks */,
+				51260E5914AE709F007166B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51260E5914AE709F007166B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51260E5814AE709F007166B6 /* MagnifyingGlassDemo.app */,
+				51260E7C14AE709F007166B6 /* MagnifyingGlassDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51260E5B14AE709F007166B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51260E5C14AE709F007166B6 /* UIKit.framework */,
+				51260E5E14AE709F007166B6 /* Foundation.framework */,
+				51260E6014AE709F007166B6 /* CoreGraphics.framework */,
+				51260E7D14AE709F007166B6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51260E6214AE709F007166B6 /* MagnifyingGlassDemo */ = {
+			isa = PBXGroup;
+			children = (
+				51260E6B14AE709F007166B6 /* ACAppDelegate.h */,
+				51260E6C14AE709F007166B6 /* ACAppDelegate.m */,
+				51260E6E14AE709F007166B6 /* ACViewController.h */,
+				51260E6F14AE709F007166B6 /* ACViewController.m */,
+				51260E7114AE709F007166B6 /* ACViewController_iPhone.xib */,
+				51260E7414AE709F007166B6 /* ACViewController_iPad.xib */,
+				51260E6314AE709F007166B6 /* Supporting Files */,
+			);
+			path = MagnifyingGlassDemo;
+			sourceTree = "<group>";
+		};
+		51260E6314AE709F007166B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51260E6414AE709F007166B6 /* MagnifyingGlassDemo-Info.plist */,
+				51260E6514AE709F007166B6 /* InfoPlist.strings */,
+				51260E6814AE709F007166B6 /* main.m */,
+				51260E6A14AE709F007166B6 /* MagnifyingGlassDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51260E8314AE70A0007166B6 /* MagnifyingGlassDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				51260E8914AE70A0007166B6 /* MagnifyingGlassDemoTests.h */,
+				51260E8A14AE70A0007166B6 /* MagnifyingGlassDemoTests.m */,
+				51260E8414AE70A0007166B6 /* Supporting Files */,
+			);
+			path = MagnifyingGlassDemoTests;
+			sourceTree = "<group>";
+		};
+		51260E8414AE70A0007166B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51260E8514AE70A0007166B6 /* MagnifyingGlassDemoTests-Info.plist */,
+				51260E8614AE70A0007166B6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51260E5714AE709F007166B6 /* MagnifyingGlassDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51260E8E14AE70A0007166B6 /* Build configuration list for PBXNativeTarget "MagnifyingGlassDemo" */;
+			buildPhases = (
+				51260E5414AE709F007166B6 /* Sources */,
+				51260E5514AE709F007166B6 /* Frameworks */,
+				51260E5614AE709F007166B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagnifyingGlassDemo;
+			productName = MagnifyingGlassDemo;
+			productReference = 51260E5814AE709F007166B6 /* MagnifyingGlassDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51260E7B14AE709F007166B6 /* MagnifyingGlassDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51260E9114AE70A0007166B6 /* Build configuration list for PBXNativeTarget "MagnifyingGlassDemoTests" */;
+			buildPhases = (
+				51260E7714AE709F007166B6 /* Sources */,
+				51260E7814AE709F007166B6 /* Frameworks */,
+				51260E7914AE709F007166B6 /* Resources */,
+				51260E7A14AE709F007166B6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51260E8214AE70A0007166B6 /* PBXTargetDependency */,
+			);
+			name = MagnifyingGlassDemoTests;
+			productName = MagnifyingGlassDemoTests;
+			productReference = 51260E7C14AE709F007166B6 /* MagnifyingGlassDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51260E4F14AE709F007166B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 51260E5214AE709F007166B6 /* Build configuration list for PBXProject "MagnifyingGlassDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 51260E4D14AE709F007166B6;
+			productRefGroup = 51260E5914AE709F007166B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51260E5714AE709F007166B6 /* MagnifyingGlassDemo */,
+				51260E7B14AE709F007166B6 /* MagnifyingGlassDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51260E5614AE709F007166B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51260E6714AE709F007166B6 /* InfoPlist.strings in Resources */,
+				51260E7314AE709F007166B6 /* ACViewController_iPhone.xib in Resources */,
+				51260E7614AE709F007166B6 /* ACViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51260E7914AE709F007166B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51260E8814AE70A0007166B6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51260E7A14AE709F007166B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51260E5414AE709F007166B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51260E6914AE709F007166B6 /* main.m in Sources */,
+				51260E6D14AE709F007166B6 /* ACAppDelegate.m in Sources */,
+				51260E7014AE709F007166B6 /* ACViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51260E7714AE709F007166B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51260E8B14AE70A0007166B6 /* MagnifyingGlassDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51260E8214AE70A0007166B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51260E5714AE709F007166B6 /* MagnifyingGlassDemo */;
+			targetProxy = 51260E8114AE70A0007166B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51260E6514AE709F007166B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51260E6614AE709F007166B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51260E7114AE709F007166B6 /* ACViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51260E7214AE709F007166B6 /* en */,
+			);
+			name = ACViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		51260E7414AE709F007166B6 /* ACViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51260E7514AE709F007166B6 /* en */,
+			);
+			name = ACViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		51260E8614AE70A0007166B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51260E8714AE70A0007166B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51260E8C14AE70A0007166B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51260E8D14AE70A0007166B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51260E8F14AE70A0007166B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagnifyingGlassDemo/MagnifyingGlassDemo-Prefix.pch";
+				INFOPLIST_FILE = "MagnifyingGlassDemo/MagnifyingGlassDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51260E9014AE70A0007166B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagnifyingGlassDemo/MagnifyingGlassDemo-Prefix.pch";
+				INFOPLIST_FILE = "MagnifyingGlassDemo/MagnifyingGlassDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		51260E9214AE70A0007166B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MagnifyingGlassDemo.app/MagnifyingGlassDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagnifyingGlassDemo/MagnifyingGlassDemo-Prefix.pch";
+				INFOPLIST_FILE = "MagnifyingGlassDemoTests/MagnifyingGlassDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		51260E9314AE70A0007166B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MagnifyingGlassDemo.app/MagnifyingGlassDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagnifyingGlassDemo/MagnifyingGlassDemo-Prefix.pch";
+				INFOPLIST_FILE = "MagnifyingGlassDemoTests/MagnifyingGlassDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51260E5214AE709F007166B6 /* Build configuration list for PBXProject "MagnifyingGlassDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51260E8C14AE70A0007166B6 /* Debug */,
+				51260E8D14AE70A0007166B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51260E8E14AE70A0007166B6 /* Build configuration list for PBXNativeTarget "MagnifyingGlassDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51260E8F14AE70A0007166B6 /* Debug */,
+				51260E9014AE70A0007166B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51260E9114AE70A0007166B6 /* Build configuration list for PBXNativeTarget "MagnifyingGlassDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51260E9214AE70A0007166B6 /* Debug */,
+				51260E9314AE70A0007166B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51260E4F14AE709F007166B6 /* Project object */;
+}
