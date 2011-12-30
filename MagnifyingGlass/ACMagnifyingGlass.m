@@ -33,6 +33,7 @@ static CGFloat const kACMagnifyingGlassDefaultScale = 1.5;
 		self.layer.masksToBounds = YES;
 		self.touchPointOffset = CGPointMake(0, kACMagnifyingGlassDefaultOffset);
 		self.scale = kACMagnifyingGlassDefaultScale;
+		self.viewToMagnify = nil;
 	}
 	return self;
 }

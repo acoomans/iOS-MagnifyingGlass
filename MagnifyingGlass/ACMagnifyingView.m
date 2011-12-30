@@ -14,7 +14,7 @@ static CGFloat const kACMagnifyingViewDefaultShowDelay = 0.5;
 
 @interface ACMagnifyingView ()
 @property (nonatomic, retain) NSTimer *touchTimer;
-- (void)addMagnifyingGlass;
+- (void)addMagnifyingGlassAtPoint:(CGPoint)point;
 - (void)removeMagnifyingGlass;
 - (void)updateMagnifyingGlassAtPoint:(CGPoint)point;
 @end
@@ -37,14 +37,12 @@ static CGFloat const kACMagnifyingViewDefaultShowDelay = 0.5;
 #pragma mark - touch events
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+	UITouch *touch = [touches anyObject];
 	self.touchTimer = [NSTimer scheduledTimerWithTimeInterval:magnifyingGlassShowDelay
 													   target:self
-													 selector:@selector(addMagnifyingGlass)
-													 userInfo:nil
+													 selector:@selector(addMagnifyingGlassTimer:)
+													 userInfo:[NSValue valueWithCGPoint:[touch locationInView:self]]
 													  repeats:NO];
-	UITouch *touch = [touches anyObject];
-	magnifyingGlass.touchPoint = [touch locationInView:self];
-	[magnifyingGlass setNeedsDisplay];
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -55,13 +53,20 @@ static CGFloat const kACMagnifyingViewDefaultShowDelay = 0.5;
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 	[self.touchTimer invalidate];
 	self.touchTimer = nil;
-	
 	[self removeMagnifyingGlass];
 }
 
 #pragma mark - private functions
 
-- (void)addMagnifyingGlass {
+- (void)addMagnifyingGlassTimer:(NSTimer*)timer {
+	NSValue *v = timer.userInfo;
+	CGPoint point = [v CGPointValue];
+	[self addMagnifyingGlassAtPoint:point];
+}
+
+#pragma mark - magnifier functions
+
+- (void)addMagnifyingGlassAtPoint:(CGPoint)point {
 	
 	if (!magnifyingGlass) {
 		magnifyingGlass = [[ACMagnifyingGlass alloc] init];
@@ -69,9 +74,12 @@ static CGFloat const kACMagnifyingViewDefaultShowDelay = 0.5;
 	
 	if (!magnifyingGlass.viewToMagnify) {
 		magnifyingGlass.viewToMagnify = self;
+		
 	}
 	
+	magnifyingGlass.touchPoint = point;
 	[self.superview addSubview:magnifyingGlass];
+	[magnifyingGlass setNeedsDisplay];
 }
 
 - (void)removeMagnifyingGlass {
