@@ -21,10 +21,12 @@
     [super viewDidLoad];
 	
 	// custom magnifier
+	
+	/*
 	ACMagnifyingGlass *mag = [[ACMagnifyingGlass alloc] initWithFrame:CGRectMake(0, 0, 120, 120)];
 	mag.scale = 2;
 	self.magnifyingView.magnifyingGlass = mag;
-
+	*/
 }
 
 - (void)viewDidUnload {
