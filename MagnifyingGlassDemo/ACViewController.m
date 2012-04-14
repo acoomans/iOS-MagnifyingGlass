@@ -31,6 +31,7 @@
 	// loupe
 	ACLoupe *loupe = [[ACLoupe alloc] init];
 	self.magnifyingView.magnifyingGlass = loupe;
+	loupe.scaleAtTouchPoint = NO;
 
 	 
 }
