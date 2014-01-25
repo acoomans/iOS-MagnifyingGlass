@@ -31,6 +31,8 @@ This magnifier is inspired by the one from [Chadwick Wood](http://coffeeshopped.
 
 The loupe image was extracted thanks to [0xced](https://github.com/0xced/UIKit-Artwork-Extractor)
 
+iOS7 loupe contribution by benhirashima
+
 ---
 
 ![screenshots](https://github.com/acoomans/iOS-MagnifyingGlass/raw/master/MagnifyingGlassDemo/screenshot.png)
