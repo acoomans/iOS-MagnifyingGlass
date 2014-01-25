@@ -18,7 +18,7 @@ Just copy the files under the _MagnifyingGlass_ directory into your project, inc
 
 You can either clone this repository or use [CocoaPods](http://cocoapods.org) to add MagnifyingGlass to your project.
 
-Add a pod entry for Parallax to your Podfile:
+Add a pod entry to your Podfile:
 
     pod 'iOS-MagnifyingGlass', '~> 0.0.2'
 
