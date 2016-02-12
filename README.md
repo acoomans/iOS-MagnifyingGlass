@@ -3,8 +3,8 @@
 ACMagnifyingGlass is a magnifier like the one you can find in the _notes_ iOS app when moving the cursor.
 
 [![Build Status](https://api.travis-ci.org/acoomans/iOS-MagnifyingGlass.png)](https://api.travis-ci.org/acoomans/iOS-MagnifyingGlass.png)
-[![Cocoapods](https://cocoapod-badges.herokuapp.com/v/iOS-MagnifyingGlass/badge.png)](http://beta.cocoapods.org/?q=on%3Aios%20name%3AiOS-MagnifyingGlass%2A)
-[![Cocoapods](https://cocoapod-badges.herokuapp.com/p/iOS-MagnifyingGlass/badge.png)](http://beta.cocoapods.org/?q=on%3Aios%20name%3AiOS-MagnifyingGlass%2A)
+[![CocoaPods](https://cocoapod-badges.herokuapp.com/v/iOS-MagnifyingGlass/badge.png)](http://beta.cocoapods.org/?q=on%3Aios%20name%3AiOS-MagnifyingGlass%2A)
+[![CocoaPods](https://cocoapod-badges.herokuapp.com/p/iOS-MagnifyingGlass/badge.png)](http://beta.cocoapods.org/?q=on%3Aios%20name%3AiOS-MagnifyingGlass%2A)
 
 ![screenshots](https://github.com/acoomans/iOS-MagnifyingGlass/raw/master/MagnifyingGlassDemo/screenshot.png)
  
